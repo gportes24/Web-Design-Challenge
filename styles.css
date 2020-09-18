@@ -1,0 +1,26 @@
+.navbar-expand-lg{
+    background-color: #0bada6;
+}
+
+img {
+  float: left ; 
+}
+.float-left{
+    float: left !important;
+}
+.visualization{
+    width: 50% !important;
+    height: 50% !important;
+}
+@media (min-width:768px)
+.col-md-12{
+    flex: 0 0 100%;
+    max-width: 100%
+}
+div {
+    display: block;
+}
+
+*, ::after, ::before{
+    box-sizing: border-box;
+}
