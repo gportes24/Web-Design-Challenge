@@ -12,11 +12,8 @@ img {
     width: 50% !important;
     height: 50% !important;
 }
-@media (min-width:768px)
-.col-md-12{
-    flex: 0 0 100%;
-    max-width: 100%
-}
+
+
 div {
     display: block;
 }
@@ -24,3 +21,46 @@ div {
 *, ::after, ::before{
     box-sizing: border-box;
 }
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.dropdown-backdrop {
+    position: static;
+    
+}
+
+.active {
+    background-color:#0BADA6; 
+}
+#navbar {
+    background-color: #0BADA6; 
+}
+
+
+h1,h2,h3 {
+    color:lightseagreen;
+    
+}
+
+h3 {
+    text-align: center;
+    font-size: 12px;
+}
+
+@media (max-width: 767px){
+    .navbar-expand-lg .dropdown-menu .navbar-toggler{
+        background-color:black;
+        
+    }
+}
+
+.collapse.show{
+    display: block;
+}
+
+.navbar .navbar-toggler .icon-bar {
+    background: black !important;
+  }
